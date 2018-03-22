@@ -1,0 +1,224 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Table1	30	3	18-3-16 下午8:46
+geometry	124	129	445	220	
+header	1[X]	QPSK[Y]	16QAM[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0.1029533333	0.2872333333
+1	2	0.0568933333	0.2365
+2	4	0.0229266667	0.18664
+3	6	0.0060866667	0.1404466667
+4	8	0.0007533333	0.0978533333
+5	10	3.333333333333e-05	0.0599333333
+6	12	0	0.0283066667
+7	14	0	0.0094533333
+8	16	0	0.0017533333
+9	18	0	0.0001333333
+10	20	0	1.333333333333e-05
+</data>
+</table>
+<table>
+Table2	1	5	18-3-16 下午8:48
+geometry	60	321	445	220	
+header	Column[X]	Slope[Y]	Intercept[Y]	Chi^2[Y]	R^2[Y]
+ColWidth	87	73	98	73	61	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel	Linear Regression of Table1	2
+<data>
+0	0	1	1	0	1
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	18-3-16 下午9:23
+geometry	443	29	561	467	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	543	404
+<PageGeometry>0.00904159	0.0119332	0.981917	0.9642</PageGeometry>
+PlotTitle	BERvsSNR	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	SNR(dB)	BER		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#3c3c3c	#3c3c3c	#3c3c3c	#3c3c3c
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_16QAM	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table1_1	Table1_QPSK	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+scale	0	0.0001	0.3	0	5	5	1	0
+scale	1	0.0001	0.3	0	5	5	1	0
+scale	2	-5	25	0	7	5	0	0
+scale	3	-5	25	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-4.2481203007519</x>
+<y>0.28829431438127</y>
+<right>1.76789587852495</right>
+<bottom>0.0979396177149604</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[18-3-16 下午8:48	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 1.000000000000000e+00 to x = 2.000000000000000e+00
+B (y-intercept) = 1.000000000000000e+00 +/- nan
+A (slope) = 1.000000000000000e+00 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = nan
+R^2 = 1
+RSS (Residual Sum of Squares) = 0
+---------------------------------------------------------------------------------------
+[18-3-16 下午8:57	Plot: ''Graph2'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+B (y-intercept) = 5.469727271666668e-02 +/- 1.323764845179839e-02
+A (slope) = -3.745666665909091e-03 +/- 1.118785491163777e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.507396291049721e-04
+R^2 = 0.554652576933424
+Adjusted R^2 = 0.44331572116678
+RMSE (Root Mean Squared Error) = 0.0234678424467392
+RSS (Residual Sum of Squares) = 0.00495665666194475
+---------------------------------------------------------------------------------------
+[18-3-16 下午8:57	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+B (y-intercept) = 5.469727271666668e-02 +/- 1.323764845179839e-02
+A (slope) = -3.745666665909091e-03 +/- 1.118785491163777e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.507396291049721e-04
+R^2 = 0.554652576933424
+Adjusted R^2 = 0.44331572116678
+RMSE (Root Mean Squared Error) = 0.0234678424467392
+RSS (Residual Sum of Squares) = 0.00495665666194475
+---------------------------------------------------------------------------------------
+[18-3-16 下午8:58	Plot: ''Graph2'']
+Linear Regression of dataset: Table1_2, using function: A*x
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+A (slope) = 1.612813852813852e-04 +/- 9.656244327854627e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.435943039596060e-03
+R^2 = -0.290171129391047
+Adjusted R^2 = -0.433523477101163
+RMSE (Root Mean Squared Error) = 0.0378938390717549
+RSS (Residual Sum of Squares) = 0.0143594303959606
+---------------------------------------------------------------------------------------
+[18-3-16 下午8:58	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+A (slope) = 1.612813852813852e-04 +/- 9.656244327854627e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.435943039596060e-03
+R^2 = -0.290171129391047
+Adjusted R^2 = -0.433523477101163
+RMSE (Root Mean Squared Error) = 0.0378938390717549
+RSS (Residual Sum of Squares) = 0.0143594303959606
+---------------------------------------------------------------------------------------
+[18-3-16 下午9:00	Plot: ''Graph2'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+B (y-intercept) = 5.469727271666668e-02 +/- 1.323764845179839e-02
+A (slope) = -3.745666665909091e-03 +/- 1.118785491163777e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.507396291049721e-04
+R^2 = 0.554652576933424
+Adjusted R^2 = 0.44331572116678
+RMSE (Root Mean Squared Error) = 0.0234678424467392
+RSS (Residual Sum of Squares) = 0.00495665666194475
+---------------------------------------------------------------------------------------
+[18-3-16 下午9:09	Plot: ''Graph3'']
+Linear Regression of dataset: Table1_2, using function: A*x
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 2.000000000000000e+01
+A (slope) = 1.612813852813852e-04 +/- 9.656244327854627e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.435943039596060e-03
+R^2 = -0.290171129391047
+Adjusted R^2 = -0.433523477101163
+RMSE (Root Mean Squared Error) = 0.0378938390717549
+RSS (Residual Sum of Squares) = 0.0143594303959606
+---------------------------------------------------------------------------------------
+
+</log>
