@@ -14,7 +14,7 @@ end
 n = 2^nextpow2(L);%2的整次幂
 dim = 2;
 Y = fft(X,n,dim);
-P2 = abs(Y/n);  %双侧
+P2 = abs(Y/n);  %双侧,
 P1 = P2(:,1:n/2+1);%单侧
 P1(:,2:end-1) = 2*P1(:,2:end-1);
 for i=1:3
